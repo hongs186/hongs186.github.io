@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  margin: auto;
+  max-width: 1024px;
+}
+
+.row {
+  width: 100%;
+}
+
+.four, .two, .one, .three, .five{
+  width: 92%;
+  background: #8ACFFF;
+  height: 100px;
+  margin: 4%;
+  float: left;
+
+}
+
+.two, .one, .three{
+  width: 42%;
+}
+
+.one {
+  width: 17%;
+}
+
+.three{
+  width: 67%;
+}
+@media (min-width: 1024px) {
+  .one, .two, .three, .four {
+    background-color: #ff0000;
+  }
+}
+@media (max-width: 460px) {
+  .one, .two, .three, .four {
+    width: 92%;
+
+  }
+}
