@@ -1,0 +1,74 @@
+.out {
+    border: 10px solid #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    float: top;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 10px;
+}
+.header {
+    border: 10px solid #0000000;
+    padding: 10px;
+    margin: 10px;
+    width: 96%;
+}
+
+.content {
+    width: 140px;
+    border: 10px solid #0000000;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+
+    float: left;
+}
+.content1 {
+    width: 140px;
+    border: 10px solid #0000000;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+
+    float: left;
+}
+.content2 {
+    width: 140px;
+    border: 10px solid #0000000;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+
+    float: left;
+}
+
+.sidebar {
+    width: 17%;
+    border: 10px solid #0000000;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+
+    float: right;
+}
+
+.footer {
+    width: 71%;
+    border: 10px solid #0000000;
+    padding: 10px;
+    margin: 10px;
+    width: 96%;
+    clear:both;
+}
+
+body {
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+  background: #0000000;
+}

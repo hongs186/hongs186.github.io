@@ -1,0 +1,53 @@
+body {
+    font-family: 'arial', sans-serif;
+    background: url('images/background.png') #e1dcda;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    color: #e7642c;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+
+}
+.wrapper .padding {
+    padding: 10px;
+}
+
+.wrapper img.fullwidth {
+    width: 100%
+}
+.wrapper footer a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.wrapper footer img{
+    width: 32%;
+    padding:0px;
+    margin:0px;
+}
+.nutrition th, .nutrition td {
+    width: 100px;
+}
+.nutrition .double {
+    width: 200px;
+}
+.nutrition th {
+    background: #ccc;
+    text-align:left;
+}
+.nutrition th[scope="row"] {
+    background: #fff;
+}
