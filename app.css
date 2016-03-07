@@ -1,0 +1,72 @@
+.wrapper {
+  width: 100%;
+  margin: auto;
+  max-width: 1024px;
+}
+
+.row {
+  width: 100%;
+  height: 400%;
+  float: top;
+}
+
+.four {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background: #000000;
+  height: 5%;
+  margin: 0%;
+  float: top;
+
+}
+
+.left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1%;
+  background: #000000;
+  height: 100%;
+  margin: 0%;
+  float: left;
+
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+
+  top: 0px;
+  width: 1%;
+  background: #000000;
+  height: 100%;
+  margin: 0%;
+  float: right;
+
+}
+
+.content1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: #000000;
+  height: 5%;
+  margin: 0%;
+  float: bottom;
+
+}
+
+@media (min-width: 1024px) {
+  .one, .two, .three, .four {
+    background-color: #000000;
+  }
+}
+@media (max-width: 460px) {
+  .one, .two, .three, .four {
+    width: 92%;
+
+  }
+}
