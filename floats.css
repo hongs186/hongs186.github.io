@@ -13,35 +13,35 @@
     border: 10px solid #0000000;
     padding: 10px;
     margin: 10px;
-    width: 96%;
+    width: 100%;
+
 }
 
-.content {
-    width: 140px;
+.content, .content1, .content2 {
+    width: 50%;
     border: 10px solid #0000000;
     height: 200px;
     margin: 10px;
     padding: 10px;
 
-    float: left;
+
 }
 .content1 {
-    width: 140px;
+    width: 25%;
     border: 10px solid #0000000;
     height: 200px;
     margin: 10px;
     padding: 10px;
 
-    float: left;
+
 }
 .content2 {
-    width: 140px;
+    width: 25%;
     border: 10px solid #0000000;
     height: 200px;
     margin: 10px;
     padding: 10px;
 
-    float: left;
 }
 
 .sidebar {
@@ -55,7 +55,7 @@
 }
 
 .footer {
-    width: 71%;
+    width: 30%;
     border: 10px solid #0000000;
     padding: 10px;
     margin: 10px;
