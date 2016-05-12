@@ -1,0 +1,107 @@
+.body {
+  background-color: green;
+}
+
+.menu {
+
+}
+.bot {
+background-color: #d6d6d6;
+height: 5%;
+width: 100%;
+color: #454545;
+font-family: Arial;
+font-size: 10px;
+font-weight: regular;
+text-align: center;
+margin-top: 20px;
+margin-left: 5px;
+
+
+}
+
+.opening {
+height: 5%;
+width: 100%;
+color: #2299f6;
+font-family: Arial;
+font-size: 13px;
+font-weight: regular;
+margin-top: 20px;
+margin-left: 5px;
+
+
+}
+
+.article {
+
+color: black;
+font-family: Arial;
+font-size: 15px;
+font-weight: regular;
+margin-top: 0px;
+margin-left: 0px;
+
+
+}
+
+.article2 {
+height: 5%;
+width: 100%;
+color: #2299f6;
+font-family: Arial;
+font-size: 13px;
+font-weight: regular;
+margin-top: 20px;
+margin-left: 5px;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 0px solid red;
+    padding: 14px;
+}
+.menu {
+    width: 100%;
+    float: left;
+    padding: 14px;
+    border: 0px solid red;
+}
+.main {
+    width: 50%;
+    float: left;
+    padding: 14px;
+    border: 0px solid red;
+}
+.main2 {
+    width: 50%;
+    float: left;
+    padding: 14px;
+    border: 0px solid red;
+}
+
+.main3 {
+    width: 100%;
+    float: left;
+    padding: 0px;
+    border: 0px solid red;
+}
+.main4 {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    border: 0px solid red;
+}
+
+p.small {
+    line-height: 0.7;
+}
+
+p.big {
+    line-height: 1.0;
+}
